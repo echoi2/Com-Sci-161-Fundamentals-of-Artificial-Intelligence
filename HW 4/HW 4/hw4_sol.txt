@@ -1,0 +1,17 @@
+1. The instance for graph1 with 3 colors is not satisfiable.
+
+2. The new instance for graph1 with 4 colors is satisfiable.
+
+3. The answers for these two SAT instances tell us that the graph only has a solvable solution when we use more than 3 colors. The reason for this is because the highest number of edges connected to a single node is 4. Therefore if we only use 3 colors, there is no possible combination of colors that can allow us to come up with a viable solution.
+
+Using A,B,C, and D to represent 4 different colors, we can generate a sample solution for graph1.
+
+Node 1: A
+Node 2: B
+Node 3: C
+Node 4: D
+Node 5: C
+Node 6: B
+Node 7: D
+
+4. The minimum number of colors required for this graph is 8.
